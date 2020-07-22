@@ -1,7 +1,8 @@
 body {
-    padding: 100px;
+    padding: 7%;
 }
 
+/**************************** Login area *********************************/
 .submit-area {
     margin-top: 50px;
     padding: 5%;
@@ -9,14 +10,17 @@ body {
     box-shadow: 5px 5px 10px gray;
 }
 
+/*************************** Logout area **********************************/
 #log-out {
     display: none;
 }
 
+/*************************** Status message *******************************/
 #statusMessage {
     display: none;
 }
 
+/*************************** Transaction area *****************************/
 #transaction-area {
     display: none;
 }
@@ -34,7 +38,7 @@ body {
 }
 
 .status {
-    margin: 0 20px;
+    margin: 2px 20px;
     color: white;
     padding: 20px;
     border-radius: 20px;
